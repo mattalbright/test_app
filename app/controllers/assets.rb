@@ -19,6 +19,6 @@ TestApp::App.controllers :assets, provides: :json do
 		@asset.payload = @json_body['payload']
 		@asset.save
 		
-		redirect url_for(:assets_read, params.slice(:catalog_id, :asset_id)), 201
+		redirect url_for(:assets, :read, params.slice(:catalog_id, :asset_id)), 201
 	end
 end
