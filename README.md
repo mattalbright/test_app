@@ -6,8 +6,10 @@ This is a Padrino app that works fine under 0.11, but fails under 0.12 for a var
 It works under Ruby 1.9.3 and 2.1.1.
 
 To test, just run:
-`bundle install --local`
-`bin/rspec spec`
+```
+bundle install --local
+bin/rspec spec
+```
 
 And to run the server:
 `bin/padrino start`
