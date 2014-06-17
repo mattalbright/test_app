@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: rspec
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: none
+:namespace: TestApp
+:migration_format: number

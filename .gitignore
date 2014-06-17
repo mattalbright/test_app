@@ -1,0 +1,22 @@
+syntax: glob
+/bin/
+tmp
+public/catalogs/
+vendor/bundle/
+vendor/ruby/
+log/*.log
+\.DS_Store
+coverage.data
+coverage/
+.idea/
+*~
+\.\#*
+Located
+
+syntax: regexp
+\.orig$
+\.orig\..*$
+vendor/cache/oz_*-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
+vendor/cookbooks/
+
+.vagrant
