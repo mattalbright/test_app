@@ -11,4 +11,4 @@ group :test do
 	gem 'rack-test', :require => "rack/test"
 end
 
-gem 'padrino', '~> 0.11.4'
+gem 'padrino', '~> 0.12.2'
