@@ -12,7 +12,13 @@ bin/rspec spec
 ```
 
 And to run the server:
-`bin/padrino start`
+```
+bin/padrino start
+```
 
-And then hit http://localhost:3000/v2/catalogs/abcdef/assets/123456 to see a JSON response.
+And then run 
+```
+curl -i http://localhost:3000/v2/catalogs/abcdef/assets/123456
+```
+to see a JSON response.
 
